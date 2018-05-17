@@ -81,7 +81,7 @@
 
 - (NSArray *)cameraFilters{
     if (!_cameraFilters) {
-        NSArray *filterArray = @[@"Origin",@"Filter18",@"Filter1",@"Filter5",@"Filter6",@"Filter16",@"Filter7",@"Filter9",@"Filter11",@"Filter8",@"Filter12",@"Filter15",@"Filter17",@"Filter4",@"Filter3",@"Filter2",@"Filter10",@"Filter13",@"Filter14"];
+        NSArray *filterArray = @[@"Filter0",@"aqua",@"02",@"06",@"17",@"crossprocess",@"purple-green",@"yellow-red",@"Filter18",@"Filter1",@"Filter5",@"Filter6",@"Filter16",@"Filter7",@"Filter9",@"Filter11",@"Filter8",@"Filter12",@"Filter15",@"Filter17",@"Filter4",@"Filter3",@"Filter2",@"Filter10",@"Filter13",@"Filter14"];
         NSMutableArray *filters = [NSMutableArray array];
         for (NSString *filterName in filterArray) {
             if ([filterName isKindOfClass:[NSString class]]) {
@@ -122,7 +122,7 @@
     [super viewDidLoad];
     [self.view addSubview:self.imageView];
     [self prepareFilterListView];
-    self.filterName = @"Origin";
+    self.filterName = @"DDFilter0";
     [self initFilterSet];
     [self.view addSubview:self.filterListView];
 }

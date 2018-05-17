@@ -8,6 +8,6 @@
 
 #import <GPUImage/GPUImage.h>
 
-@interface Origin : GPUImageFilter
+@interface DDFilter0 : GPUImageFilter
 
 @end

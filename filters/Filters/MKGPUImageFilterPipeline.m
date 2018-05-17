@@ -222,11 +222,11 @@
     if ([name hasPrefix:@"Filter"]) {
         return [[NSClassFromString([NSString stringWithFormat:@"DD%@", name]) alloc] init];
     } else {
-//        GPUImageToneCurveFilter *filter = [[GPUImageToneCurveFilter alloc] init];
-//        [filter setPointsWithACV:[NSString stringWithFormat:@"%@.ramp", name]];
+        GPUImageToneCurveFilter *filter = [[GPUImageToneCurveFilter alloc] init];
+        [filter setPointsWithACV:[NSString stringWithFormat:@"%@", name]];
         //本地文件暂无，需要.ACV文件，老版本（年代久远(12年左右)）的.ramp文件新版本无法识别，文件中主要包含r，g，b等基本数据，新版本玩不转暂时
-        return [[NSClassFromString([NSString stringWithFormat:@"%@", name]) alloc] init];
-        //return filter;
+        //return [[NSClassFromString([NSString stringWithFormat:@"%@", name]) alloc] init];
+        return filter;
     }
     return nil;
 }

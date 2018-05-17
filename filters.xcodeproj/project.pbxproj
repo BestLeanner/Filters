@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		510305CD39792C8AF00A4D90 /* Pods_filters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8E4EAF6A0EF2D1A0A1D48A /* Pods_filters.framework */; };
-		FD80DDD320AC1A9F00320A83 /* Origin.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80DDD220AC1A9F00320A83 /* Origin.m */; };
+		FD80DDD320AC1A9F00320A83 /* DDFilter0.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80DDD220AC1A9F00320A83 /* DDFilter0.m */; };
 		FD80DDDA20AC2A4500320A83 /* GPUImageFiveInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80DDD420AC2A4300320A83 /* GPUImageFiveInputFilter.m */; };
 		FD80DDDB20AC2A4500320A83 /* GPUImageFourInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80DDD620AC2A4400320A83 /* GPUImageFourInputFilter.m */; };
 		FD80DDDC20AC2A4500320A83 /* GPUImageSixInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = FD80DDD720AC2A4400320A83 /* GPUImageSixInputFilter.m */; };
@@ -90,14 +90,22 @@
 		FD81353320AAFAA800D46CB1 /* UIDevice+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81353020AAFAA800D46CB1 /* UIDevice+Tools.m */; };
 		FD81353520AAFBFC00D46CB1 /* Moment.ramp in Resources */ = {isa = PBXBuildFile; fileRef = FD81353420AAFBFC00D46CB1 /* Moment.ramp */; };
 		FD81353720AB032B00D46CB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD81353620AB032B00D46CB1 /* Localizable.strings */; };
+		FD8B76AF20AD7D16004F7C1B /* 17.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76A720AD7D13004F7C1B /* 17.acv */; };
+		FD8B76B020AD7D16004F7C1B /* yellow-red.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76A820AD7D13004F7C1B /* yellow-red.acv */; };
+		FD8B76B120AD7D16004F7C1B /* 06.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76A920AD7D14004F7C1B /* 06.acv */; };
+		FD8B76B220AD7D16004F7C1B /* 02.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AA20AD7D14004F7C1B /* 02.acv */; };
+		FD8B76B320AD7D16004F7C1B /* crossprocess.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AB20AD7D14004F7C1B /* crossprocess.acv */; };
+		FD8B76B420AD7D16004F7C1B /* aqua.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AC20AD7D15004F7C1B /* aqua.acv */; };
+		FD8B76B520AD7D16004F7C1B /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AD20AD7D15004F7C1B /* mask.png */; };
+		FD8B76B620AD7D16004F7C1B /* purple-green.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AE20AD7D16004F7C1B /* purple-green.acv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7DD00F501E345D5860C1BF10 /* Pods-filters.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-filters.debug.xcconfig"; path = "Pods/Target Support Files/Pods-filters/Pods-filters.debug.xcconfig"; sourceTree = "<group>"; };
 		BA8E4EAF6A0EF2D1A0A1D48A /* Pods_filters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_filters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2744DE3EF790100802D6DF6 /* Pods-filters.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-filters.release.xcconfig"; path = "Pods/Target Support Files/Pods-filters/Pods-filters.release.xcconfig"; sourceTree = "<group>"; };
-		FD80DDD120AC1A9F00320A83 /* Origin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Origin.h; sourceTree = "<group>"; };
-		FD80DDD220AC1A9F00320A83 /* Origin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Origin.m; sourceTree = "<group>"; };
+		FD80DDD120AC1A9F00320A83 /* DDFilter0.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDFilter0.h; sourceTree = "<group>"; };
+		FD80DDD220AC1A9F00320A83 /* DDFilter0.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDFilter0.m; sourceTree = "<group>"; };
 		FD80DDD420AC2A4300320A83 /* GPUImageFiveInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFiveInputFilter.m; sourceTree = "<group>"; };
 		FD80DDD520AC2A4400320A83 /* GPUImageFourInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFourInputFilter.h; sourceTree = "<group>"; };
 		FD80DDD620AC2A4400320A83 /* GPUImageFourInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFourInputFilter.m; sourceTree = "<group>"; };
@@ -214,6 +222,14 @@
 		FD81353120AAFAA800D46CB1 /* UIDevice+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Tools.h"; sourceTree = "<group>"; };
 		FD81353420AAFBFC00D46CB1 /* Moment.ramp */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moment.ramp; sourceTree = "<group>"; };
 		FD81353620AB032B00D46CB1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FD8B76A720AD7D13004F7C1B /* 17.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = 17.acv; sourceTree = "<group>"; };
+		FD8B76A820AD7D13004F7C1B /* yellow-red.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yellow-red.acv"; sourceTree = "<group>"; };
+		FD8B76A920AD7D14004F7C1B /* 06.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = 06.acv; sourceTree = "<group>"; };
+		FD8B76AA20AD7D14004F7C1B /* 02.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02.acv; sourceTree = "<group>"; };
+		FD8B76AB20AD7D14004F7C1B /* crossprocess.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = crossprocess.acv; sourceTree = "<group>"; };
+		FD8B76AC20AD7D15004F7C1B /* aqua.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = aqua.acv; sourceTree = "<group>"; };
+		FD8B76AD20AD7D15004F7C1B /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
+		FD8B76AE20AD7D16004F7C1B /* purple-green.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "purple-green.acv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -330,13 +346,21 @@
 				FD8133E720AAB07800D46CB1 /* DDFilter18.m */,
 				FD80DDE720AC34F100320A83 /* DDImageFilter.h */,
 				FD80DDE820AC34F100320A83 /* DDImageFilter.m */,
-				FD80DDD120AC1A9F00320A83 /* Origin.h */,
-				FD80DDD220AC1A9F00320A83 /* Origin.m */,
+				FD80DDD120AC1A9F00320A83 /* DDFilter0.h */,
+				FD80DDD220AC1A9F00320A83 /* DDFilter0.m */,
 				FD81340420AAB07C00D46CB1 /* DDFilters.h */,
 				FD81341920AAB38900D46CB1 /* MKGPUImageFilterPipeline.h */,
 				FD81341A20AAB38900D46CB1 /* MKGPUImageFilterPipeline.m */,
 				FD81353420AAFBFC00D46CB1 /* Moment.ramp */,
 				FD81352C20AADF8B00D46CB1 /* image.png */,
+				FD8B76AA20AD7D14004F7C1B /* 02.acv */,
+				FD8B76A920AD7D14004F7C1B /* 06.acv */,
+				FD8B76A720AD7D13004F7C1B /* 17.acv */,
+				FD8B76AC20AD7D15004F7C1B /* aqua.acv */,
+				FD8B76AB20AD7D14004F7C1B /* crossprocess.acv */,
+				FD8B76AD20AD7D15004F7C1B /* mask.png */,
+				FD8B76AE20AD7D16004F7C1B /* purple-green.acv */,
+				FD8B76A820AD7D13004F7C1B /* yellow-red.acv */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -478,11 +502,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD8B76B120AD7D16004F7C1B /* 06.acv in Resources */,
+				FD8B76AF20AD7D16004F7C1B /* 17.acv in Resources */,
 				FD8133C920AA726D00D46CB1 /* LaunchScreen.storyboard in Resources */,
 				FD81344F20AAB79300D46CB1 /* fp11.png in Resources */,
 				FD81345220AAB79300D46CB1 /* fp29.png in Resources */,
 				FD81345B20AAB79300D46CB1 /* fp5.png in Resources */,
 				FD81345A20AAB79300D46CB1 /* fp4.png in Resources */,
+				FD8B76B520AD7D16004F7C1B /* mask.png in Resources */,
 				FD81346620AAB79300D46CB1 /* fp33.png in Resources */,
 				FD81346E20AAB79300D46CB1 /* fp18.png in Resources */,
 				FD81345320AAB79300D46CB1 /* fp28.png in Resources */,
@@ -503,13 +530,17 @@
 				FD81344D20AAB79300D46CB1 /* fp10.png in Resources */,
 				FD81344C20AAB79300D46CB1 /* fp38.png in Resources */,
 				FD81344B20AAB79300D46CB1 /* fp12.png in Resources */,
+				FD8B76B420AD7D16004F7C1B /* aqua.acv in Resources */,
 				FD81346220AAB79300D46CB1 /* fp40.png in Resources */,
 				FD81345720AAB79300D46CB1 /* fp2.jpg in Resources */,
+				FD8B76B320AD7D16004F7C1B /* crossprocess.acv in Resources */,
 				FD81353520AAFBFC00D46CB1 /* Moment.ramp in Resources */,
 				FD81346120AAB79300D46CB1 /* fp42.png in Resources */,
 				FD81346520AAB79300D46CB1 /* fp26.jpg in Resources */,
+				FD8B76B620AD7D16004F7C1B /* purple-green.acv in Resources */,
 				FD81347020AAB79300D46CB1 /* fp20.png in Resources */,
 				FD81346420AAB79300D46CB1 /* fp32.jpg in Resources */,
+				FD8B76B220AD7D16004F7C1B /* 02.acv in Resources */,
 				FD81353720AB032B00D46CB1 /* Localizable.strings in Resources */,
 				FD81345C20AAB79300D46CB1 /* fp7.png in Resources */,
 				FD81345D20AAB79300D46CB1 /* fp6.jpg in Resources */,
@@ -519,6 +550,7 @@
 				FD81346920AAB79300D46CB1 /* fp31.png in Resources */,
 				FD81345420AAB79300D46CB1 /* fp14.png in Resources */,
 				FD81346320AAB79300D46CB1 /* fp41.png in Resources */,
+				FD8B76B020AD7D16004F7C1B /* yellow-red.acv in Resources */,
 				FD81346720AAB79300D46CB1 /* fp27.png in Resources */,
 				FD81347620AAB79300D46CB1 /* fp22.png in Resources */,
 				FD81347420AAB79300D46CB1 /* fp37.png in Resources */,
@@ -583,7 +615,7 @@
 				FD81341B20AAB38900D46CB1 /* MKGPUImageFilterPipeline.m in Sources */,
 				FD80DDDB20AC2A4500320A83 /* GPUImageFourInputFilter.m in Sources */,
 				FD81341320AAB07C00D46CB1 /* DDFilter5.m in Sources */,
-				FD80DDD320AC1A9F00320A83 /* Origin.m in Sources */,
+				FD80DDD320AC1A9F00320A83 /* DDFilter0.m in Sources */,
 				FD8133CC20AA726D00D46CB1 /* main.m in Sources */,
 				FD81341120AAB07C00D46CB1 /* DDFilter8.m in Sources */,
 				FD81341520AAB07C00D46CB1 /* DDFilter16.m in Sources */,

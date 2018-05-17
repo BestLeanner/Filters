@@ -6,7 +6,7 @@
 //  Copyright © 2018年 HangZhao. All rights reserved.
 //
 
-#import "Origin.h"
+#import "DDFilter0.h"
 
 
 NSString *const kIFNormalShaderString = SHADER_STRING
@@ -26,7 +26,7 @@ NSString *const kIFNormalShaderString = SHADER_STRING
  }
  );
 
-@implementation Origin
+@implementation DDFilter0
 
 - (id)init;
 {
