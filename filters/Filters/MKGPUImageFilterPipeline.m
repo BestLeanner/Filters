@@ -224,7 +224,6 @@
     } else {
         GPUImageToneCurveFilter *filter = [[GPUImageToneCurveFilter alloc] init];
         [filter setPointsWithACV:[NSString stringWithFormat:@"%@", name]];
-        //本地文件暂不全，暂时研究ps，准备自己做，需要.ACV文件，老版本（年代久远(12年左右)）的.ramp文件新版本无法识别，文件中主要包含r，g，b等基本数据，新版本玩不转暂时
         return filter;
     }
     return nil;

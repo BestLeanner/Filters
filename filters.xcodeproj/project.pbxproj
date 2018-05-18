@@ -88,15 +88,22 @@
 		FD81349220AAB96700D46CB1 /* UIView+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81349020AAB96600D46CB1 /* UIView+Tools.m */; };
 		FD81352D20AADF8C00D46CB1 /* image.png in Resources */ = {isa = PBXBuildFile; fileRef = FD81352C20AADF8B00D46CB1 /* image.png */; };
 		FD81353320AAFAA800D46CB1 /* UIDevice+Tools.m in Sources */ = {isa = PBXBuildFile; fileRef = FD81353020AAFAA800D46CB1 /* UIDevice+Tools.m */; };
-		FD81353520AAFBFC00D46CB1 /* Moment.ramp in Resources */ = {isa = PBXBuildFile; fileRef = FD81353420AAFBFC00D46CB1 /* Moment.ramp */; };
 		FD81353720AB032B00D46CB1 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FD81353620AB032B00D46CB1 /* Localizable.strings */; };
+		FD864C8B20AE6B5E00F84AAF /* Moment.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864C8A20AE6B5D00F84AAF /* Moment.acv */; };
+		FD864CB120AE6DC400F84AAF /* Vintage.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864CA920AE6DC300F84AAF /* Vintage.acv */; };
+		FD864CB220AE6DC400F84AAF /* Film.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864CAA20AE6DC300F84AAF /* Film.acv */; };
+		FD864CB320AE6DC400F84AAF /* Lomo.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864CAB20AE6DC300F84AAF /* Lomo.acv */; };
+		FD864CB420AE6DC400F84AAF /* Forest.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864CAC20AE6DC300F84AAF /* Forest.acv */; };
+		FD864CB520AE6DC400F84AAF /* Tea.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864CAD20AE6DC300F84AAF /* Tea.acv */; };
+		FD864CB620AE6DC400F84AAF /* Lake.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864CAE20AE6DC400F84AAF /* Lake.acv */; };
+		FD864CB720AE6DC400F84AAF /* Origin.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864CAF20AE6DC400F84AAF /* Origin.acv */; };
+		FD864CB820AE6DC400F84AAF /* NYC.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD864CB020AE6DC400F84AAF /* NYC.acv */; };
 		FD8B76AF20AD7D16004F7C1B /* 17.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76A720AD7D13004F7C1B /* 17.acv */; };
 		FD8B76B020AD7D16004F7C1B /* yellow-red.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76A820AD7D13004F7C1B /* yellow-red.acv */; };
 		FD8B76B120AD7D16004F7C1B /* 06.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76A920AD7D14004F7C1B /* 06.acv */; };
 		FD8B76B220AD7D16004F7C1B /* 02.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AA20AD7D14004F7C1B /* 02.acv */; };
 		FD8B76B320AD7D16004F7C1B /* crossprocess.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AB20AD7D14004F7C1B /* crossprocess.acv */; };
 		FD8B76B420AD7D16004F7C1B /* aqua.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AC20AD7D15004F7C1B /* aqua.acv */; };
-		FD8B76B520AD7D16004F7C1B /* mask.png in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AD20AD7D15004F7C1B /* mask.png */; };
 		FD8B76B620AD7D16004F7C1B /* purple-green.acv in Resources */ = {isa = PBXBuildFile; fileRef = FD8B76AE20AD7D16004F7C1B /* purple-green.acv */; };
 /* End PBXBuildFile section */
 
@@ -217,18 +224,25 @@
 		FD81348B20AAB8D000D46CB1 /* NSString+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Tools.h"; sourceTree = "<group>"; };
 		FD81349020AAB96600D46CB1 /* UIView+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Tools.m"; sourceTree = "<group>"; };
 		FD81349120AAB96600D46CB1 /* UIView+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Tools.h"; sourceTree = "<group>"; };
-		FD81352C20AADF8B00D46CB1 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = filters/image.png; sourceTree = SOURCE_ROOT; };
+		FD81352C20AADF8B00D46CB1 /* image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = image.png; path = filters/Images/image.png; sourceTree = SOURCE_ROOT; };
 		FD81353020AAFAA800D46CB1 /* UIDevice+Tools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Tools.m"; sourceTree = "<group>"; };
 		FD81353120AAFAA800D46CB1 /* UIDevice+Tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Tools.h"; sourceTree = "<group>"; };
-		FD81353420AAFBFC00D46CB1 /* Moment.ramp */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moment.ramp; sourceTree = "<group>"; };
 		FD81353620AB032B00D46CB1 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		FD864C8A20AE6B5D00F84AAF /* Moment.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moment.acv; sourceTree = "<group>"; };
+		FD864CA920AE6DC300F84AAF /* Vintage.acv */ = {isa = PBXFileReference; lastKnownFileType = file; name = Vintage.acv; path = filters/Filters/Vintage.acv; sourceTree = SOURCE_ROOT; };
+		FD864CAA20AE6DC300F84AAF /* Film.acv */ = {isa = PBXFileReference; lastKnownFileType = file; name = Film.acv; path = filters/Filters/Film.acv; sourceTree = SOURCE_ROOT; };
+		FD864CAB20AE6DC300F84AAF /* Lomo.acv */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lomo.acv; path = filters/Filters/Lomo.acv; sourceTree = SOURCE_ROOT; };
+		FD864CAC20AE6DC300F84AAF /* Forest.acv */ = {isa = PBXFileReference; lastKnownFileType = file; name = Forest.acv; path = filters/Filters/Forest.acv; sourceTree = SOURCE_ROOT; };
+		FD864CAD20AE6DC300F84AAF /* Tea.acv */ = {isa = PBXFileReference; lastKnownFileType = file; name = Tea.acv; path = filters/Filters/Tea.acv; sourceTree = SOURCE_ROOT; };
+		FD864CAE20AE6DC400F84AAF /* Lake.acv */ = {isa = PBXFileReference; lastKnownFileType = file; name = Lake.acv; path = filters/Filters/Lake.acv; sourceTree = SOURCE_ROOT; };
+		FD864CAF20AE6DC400F84AAF /* Origin.acv */ = {isa = PBXFileReference; lastKnownFileType = file; name = Origin.acv; path = filters/Filters/Origin.acv; sourceTree = SOURCE_ROOT; };
+		FD864CB020AE6DC400F84AAF /* NYC.acv */ = {isa = PBXFileReference; lastKnownFileType = file; name = NYC.acv; path = filters/Filters/NYC.acv; sourceTree = SOURCE_ROOT; };
 		FD8B76A720AD7D13004F7C1B /* 17.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = 17.acv; sourceTree = "<group>"; };
 		FD8B76A820AD7D13004F7C1B /* yellow-red.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "yellow-red.acv"; sourceTree = "<group>"; };
 		FD8B76A920AD7D14004F7C1B /* 06.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = 06.acv; sourceTree = "<group>"; };
 		FD8B76AA20AD7D14004F7C1B /* 02.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = 02.acv; sourceTree = "<group>"; };
 		FD8B76AB20AD7D14004F7C1B /* crossprocess.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = crossprocess.acv; sourceTree = "<group>"; };
 		FD8B76AC20AD7D15004F7C1B /* aqua.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = aqua.acv; sourceTree = "<group>"; };
-		FD8B76AD20AD7D15004F7C1B /* mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mask.png; sourceTree = "<group>"; };
 		FD8B76AE20AD7D16004F7C1B /* purple-green.acv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "purple-green.acv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -306,6 +320,7 @@
 		FD8133D820AA765700D46CB1 /* Filters */ = {
 			isa = PBXGroup;
 			children = (
+				FD864CA820AE6D5400F84AAF /* FlterAcvFiles */,
 				FD8B76A620AD6A08004F7C1B /* FilterGroups */,
 				FD81347720AAB87800D46CB1 /* FilterListView */,
 				FD81340620AAB07C00D46CB1 /* DDFilter1.h */,
@@ -351,16 +366,6 @@
 				FD81340420AAB07C00D46CB1 /* DDFilters.h */,
 				FD81341920AAB38900D46CB1 /* MKGPUImageFilterPipeline.h */,
 				FD81341A20AAB38900D46CB1 /* MKGPUImageFilterPipeline.m */,
-				FD81353420AAFBFC00D46CB1 /* Moment.ramp */,
-				FD81352C20AADF8B00D46CB1 /* image.png */,
-				FD8B76AA20AD7D14004F7C1B /* 02.acv */,
-				FD8B76A920AD7D14004F7C1B /* 06.acv */,
-				FD8B76A720AD7D13004F7C1B /* 17.acv */,
-				FD8B76AC20AD7D15004F7C1B /* aqua.acv */,
-				FD8B76AB20AD7D14004F7C1B /* crossprocess.acv */,
-				FD8B76AD20AD7D15004F7C1B /* mask.png */,
-				FD8B76AE20AD7D16004F7C1B /* purple-green.acv */,
-				FD8B76A820AD7D13004F7C1B /* yellow-red.acv */,
 			);
 			path = Filters;
 			sourceTree = "<group>";
@@ -368,6 +373,7 @@
 		FD81341C20AAB79300D46CB1 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				FD81352C20AADF8B00D46CB1 /* image.png */,
 				FD81341D20AAB79300D46CB1 /* fp13.png */,
 				FD81341E20AAB79300D46CB1 /* fp12.png */,
 				FD81341F20AAB79300D46CB1 /* fp38.png */,
@@ -428,6 +434,29 @@
 				FD81347E20AAB87800D46CB1 /* DDFilterItem.h */,
 			);
 			path = FilterListView;
+			sourceTree = "<group>";
+		};
+		FD864CA820AE6D5400F84AAF /* FlterAcvFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FD864CAA20AE6DC300F84AAF /* Film.acv */,
+				FD864CAC20AE6DC300F84AAF /* Forest.acv */,
+				FD864CAE20AE6DC400F84AAF /* Lake.acv */,
+				FD864CAB20AE6DC300F84AAF /* Lomo.acv */,
+				FD864CB020AE6DC400F84AAF /* NYC.acv */,
+				FD864CAF20AE6DC400F84AAF /* Origin.acv */,
+				FD864CAD20AE6DC300F84AAF /* Tea.acv */,
+				FD864CA920AE6DC300F84AAF /* Vintage.acv */,
+				FD864C8A20AE6B5D00F84AAF /* Moment.acv */,
+				FD8B76AA20AD7D14004F7C1B /* 02.acv */,
+				FD8B76A920AD7D14004F7C1B /* 06.acv */,
+				FD8B76A720AD7D13004F7C1B /* 17.acv */,
+				FD8B76AC20AD7D15004F7C1B /* aqua.acv */,
+				FD8B76AB20AD7D14004F7C1B /* crossprocess.acv */,
+				FD8B76AE20AD7D16004F7C1B /* purple-green.acv */,
+				FD8B76A820AD7D13004F7C1B /* yellow-red.acv */,
+			);
+			path = FlterAcvFiles;
 			sourceTree = "<group>";
 		};
 		FD8B76A620AD6A08004F7C1B /* FilterGroups */ = {
@@ -509,7 +538,6 @@
 				FD81345220AAB79300D46CB1 /* fp29.png in Resources */,
 				FD81345B20AAB79300D46CB1 /* fp5.png in Resources */,
 				FD81345A20AAB79300D46CB1 /* fp4.png in Resources */,
-				FD8B76B520AD7D16004F7C1B /* mask.png in Resources */,
 				FD81346620AAB79300D46CB1 /* fp33.png in Resources */,
 				FD81346E20AAB79300D46CB1 /* fp18.png in Resources */,
 				FD81345320AAB79300D46CB1 /* fp28.png in Resources */,
@@ -521,20 +549,25 @@
 				FD81345920AAB79300D46CB1 /* fp1.png in Resources */,
 				FD81345F20AAB79300D46CB1 /* fp8.jpg in Resources */,
 				FD81346F20AAB79300D46CB1 /* fp34.png in Resources */,
+				FD864CB120AE6DC400F84AAF /* Vintage.acv in Resources */,
 				FD81345820AAB79300D46CB1 /* fp3.png in Resources */,
 				FD81347320AAB79300D46CB1 /* fp23.png in Resources */,
+				FD864C8B20AE6B5E00F84AAF /* Moment.acv in Resources */,
 				FD81345520AAB79300D46CB1 /* fp16.jpg in Resources */,
+				FD864CB620AE6DC400F84AAF /* Lake.acv in Resources */,
 				FD81344A20AAB79300D46CB1 /* fp13.png in Resources */,
+				FD864CB820AE6DC400F84AAF /* NYC.acv in Resources */,
 				FD81345020AAB79300D46CB1 /* fp39.png in Resources */,
+				FD864CB520AE6DC400F84AAF /* Tea.acv in Resources */,
 				FD81347520AAB79300D46CB1 /* fp36.jpg in Resources */,
 				FD81344D20AAB79300D46CB1 /* fp10.png in Resources */,
 				FD81344C20AAB79300D46CB1 /* fp38.png in Resources */,
+				FD864CB220AE6DC400F84AAF /* Film.acv in Resources */,
 				FD81344B20AAB79300D46CB1 /* fp12.png in Resources */,
 				FD8B76B420AD7D16004F7C1B /* aqua.acv in Resources */,
 				FD81346220AAB79300D46CB1 /* fp40.png in Resources */,
 				FD81345720AAB79300D46CB1 /* fp2.jpg in Resources */,
 				FD8B76B320AD7D16004F7C1B /* crossprocess.acv in Resources */,
-				FD81353520AAFBFC00D46CB1 /* Moment.ramp in Resources */,
 				FD81346120AAB79300D46CB1 /* fp42.png in Resources */,
 				FD81346520AAB79300D46CB1 /* fp26.jpg in Resources */,
 				FD8B76B620AD7D16004F7C1B /* purple-green.acv in Resources */,
@@ -551,12 +584,15 @@
 				FD81345420AAB79300D46CB1 /* fp14.png in Resources */,
 				FD81346320AAB79300D46CB1 /* fp41.png in Resources */,
 				FD8B76B020AD7D16004F7C1B /* yellow-red.acv in Resources */,
+				FD864CB320AE6DC400F84AAF /* Lomo.acv in Resources */,
 				FD81346720AAB79300D46CB1 /* fp27.png in Resources */,
 				FD81347620AAB79300D46CB1 /* fp22.png in Resources */,
 				FD81347420AAB79300D46CB1 /* fp37.png in Resources */,
 				FD81346D20AAB79300D46CB1 /* fp30.png in Resources */,
 				FD81347120AAB79300D46CB1 /* fp21.png in Resources */,
 				FD81352D20AADF8C00D46CB1 /* image.png in Resources */,
+				FD864CB720AE6DC400F84AAF /* Origin.acv in Resources */,
+				FD864CB420AE6DC400F84AAF /* Forest.acv in Resources */,
 				FD8133C420AA726C00D46CB1 /* Main.storyboard in Resources */,
 				FD81345120AAB79300D46CB1 /* fp15.png in Resources */,
 			);
