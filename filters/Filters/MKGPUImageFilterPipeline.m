@@ -137,6 +137,7 @@
 - (void)refreshInput
 {
     if (isFromStillImage) {
+        [self.mainFilter useNextFrameForImageCapture];
         [((GPUImagePicture *)self.input) processImage];
     }
 }

@@ -101,7 +101,7 @@
 - (void)prepareFilterListView {
     if (!self.filterListView) {
         
-        self.filterListView = [[DDFilterListView alloc] initWithFrame:ccr(0, 400,self.view.width, 300)
+        self.filterListView = [[DDFilterListView alloc] initWithFrame:ccr(0, 400,self.view.width, 150)
                                                           filterItems:self.cameraFilters
                                                        filterDelegate:self
                                                     initialFilterItem:[self.cameraFilters firstObject]];
