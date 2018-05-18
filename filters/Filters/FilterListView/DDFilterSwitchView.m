@@ -10,12 +10,21 @@
 #import "NSString+Tools.h"
 #import "UIView+Tools.h"
 #import "DDFilterItem.h"
+#import "GPUImage.h"
+#import "MKGPUImageFilterPipeline.h"
 
 @interface DDFilterSwitchView ()
 
 @property (nonatomic, strong) UIImageView *checkerImageView;
 
 @property (nonatomic, strong) UIView *selectView;
+
+@property (nonatomic, strong) GPUImageView *outPut;
+
+@property (nonatomic, strong) GPUImagePicture *picture;
+
+@property (nonatomic, strong) MKGPUImageFilterPipeline *filterPipeline;
+
 
 @end
 
@@ -31,12 +40,30 @@
         self.imageView.image = [UIImage imageNamed:filterItem.btnImageName];
     } else if (filterItem.btnImage) {
         self.imageView.image = filterItem.btnImage;
-       
+        
     } else {
         NSLog(@"....");
     }
     
     self.titleLabel.text = _(filterItem.btnText);
+    
+    self.filterPipeline = [[MKGPUImageFilterPipeline alloc] initWithName:filterItem.btnText input:self.picture output:self.outPut];
+}
+
+- (GPUImageView *)outPut{
+    if (_outPut == nil) {
+        _outPut = [[GPUImageView alloc] init];
+        _outPut.frame = self.imageView.frame;
+        [_outPut setBackgroundColor:[UIColor clearColor]];
+    }
+    return _outPut;
+}
+
+- (GPUImagePicture *)picture{
+    if (_picture == nil) {
+        _picture = [[GPUImagePicture alloc] initWithImage:self.imageView.image];
+    }
+    return _picture;
 }
 
 - (instancetype)initWithFrame:(CGRect)frame
@@ -61,12 +88,14 @@
 }
 
 - (instancetype)initWithFrame:(CGRect)frame filterItem:(DDFilterItem *)filter {
-
+    
     if (self = [super initWithFrame:frame]) {
         self.imageView = [[UIImageView alloc] initWithFrame:ccr(0, 0, frame.size.width, 100)];
-       
+        
         [self addSubview:self.imageView];
-
+        
+        [self addSubview:self.outPut];
+        
         self.titleLabel = [[UILabel alloc] init];
         [self.titleLabel setTextColor:[UIColor whiteColor]];
         [self.titleLabel setBackgroundColor:[UIColor clearColor]];
@@ -78,15 +107,15 @@
         self.checkerImageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"pub_insta_checker"]];
         CGFloat width = 56.0 / 60.0;
         self.checkerImageView.center = ccp(width * CGRectGetWidth(frame), width * CGRectGetWidth(frame));
-       // [self addSubview:self.checkerImageView];
+        // [self addSubview:self.checkerImageView];
         
         self.selectView = [[UIView alloc] initWithFrame:CGRectMake(18, self.imageView.bottom +37, 58, 2)];
-        self.selectView.backgroundColor = [UIColor colorWithRed:252/255.0f green:152/255.0f blue:28/255.0f alpha:1.0];
+        self.selectView.backgroundColor = [UIColor colorWithRed:252/255.0 green:152/255.0 blue:28/255.0 alpha:1.0];
         [self addSubview:self.selectView];
         self.on = NO;
         
         [self reloadWithFilterItem:filter];
-
+        
     }
     
     return self;
@@ -98,11 +127,11 @@
     if (on) {
         //self.checkerImageView.hidden = NO;
         self.selectView.hidden = NO;
-        [self.titleLabel setTextColor:[UIColor colorWithRed:252/255.0f green:152/255.0f blue:28/255.0f alpha:1.0]];
+        [self.titleLabel setTextColor:[UIColor colorWithRed:252/255.0 green:152/255.0 blue:28/255.0 alpha:1.0]];
     } else {
-       // self.checkerImageView.hidden = YES;
+        // self.checkerImageView.hidden = YES;
         self.selectView.hidden = YES;
-         [self.titleLabel setTextColor:[UIColor whiteColor]];
+        [self.titleLabel setTextColor:[UIColor whiteColor]];
     }
     
     [self sizeToFit];

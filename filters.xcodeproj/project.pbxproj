@@ -427,8 +427,8 @@
 			children = (
 				FD81347820AAB87800D46CB1 /* DDFilterListView.m */,
 				FD81347920AAB87800D46CB1 /* DDFilterSwitchView.h */,
-				FD81347A20AAB87800D46CB1 /* DDFilterItem.m */,
 				FD81347B20AAB87800D46CB1 /* DDFilterSwitchView.m */,
+				FD81347A20AAB87800D46CB1 /* DDFilterItem.m */,
 				FD81347C20AAB87800D46CB1 /* DDFilterListView.h */,
 				FD81347D20AAB87800D46CB1 /* DDFilterListViewSubclass.h */,
 				FD81347E20AAB87800D46CB1 /* DDFilterItem.h */,

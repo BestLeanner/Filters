@@ -105,7 +105,7 @@
                                                           filterItems:self.cameraFilters
                                                        filterDelegate:self
                                                     initialFilterItem:[self.cameraFilters firstObject]];
-        [self.filterListView setBackgroundColor:[UIColor blueColor]];
+        [self.filterListView setBackgroundColor:[UIColor blackColor]];
     }
 }
 
